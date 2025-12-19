@@ -1,4 +1,4 @@
-
+﻿
 resource "azurerm_service_plan" "this" {
   name                = "${var.name}-plan"
   location            = var.location
@@ -17,7 +17,8 @@ resource "azurerm_linux_function_app" "this" {
 
   site_config {
     application_stack {
-      python_version = "3.9"
+      python_version = "3.11"
     }
   }
 }
+

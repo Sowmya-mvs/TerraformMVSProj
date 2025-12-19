@@ -1,0 +1,4 @@
+﻿pytest==8.3.3
+requests==2.32.3
+azure-identity==1.18.0
+azure-keyvault-secrets==4.8.0
