@@ -6,7 +6,7 @@ Execute the following  steps sequentially to validate terraform  module as descr
 Step 1:
 Scan the repository for terraform required_version and provider blocks.
 Suggest safe version upgrades based on compatibility.
-Generate a PR with minimal version bumps and changelog notes.
+Generate a PR with minimal version bumps and changelog notes in github
 
 Step 2:
 
